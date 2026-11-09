@@ -1,0 +1,53 @@
+
+{
+  "evaluation_name": "AI Educational Tutor - Component Evaluation",
+  "version": "1.0",
+  "description": "Offline evaluation of input validation and student memory components.",
+  "tasks": [
+    {
+      "id": "input_valid",
+      "category": "input_validation",
+      "description": "Accept a valid student request."
+    },
+    {
+      "id": "input_defaults",
+      "category": "input_validation",
+      "description": "Apply the default values when optional fields are omitted."
+    },
+    {
+      "id": "input_empty_message",
+      "category": "input_validation",
+      "description": "Reject an empty student message."
+    },
+    {
+      "id": "input_long_message",
+      "category": "input_validation",
+      "description": "Reject a message longer than 4000 characters."
+    },
+    {
+      "id": "input_empty_student_id",
+      "category": "input_validation",
+      "description": "Reject an empty student identifier."
+    },
+    {
+      "id": "memory_initial_state",
+      "category": "student_memory",
+      "description": "Initialize student memory with empty concept lists and zero counters."
+    },
+    {
+      "id": "memory_mastered_concept",
+      "category": "student_memory",
+      "description": "Store a mastered concept."
+    },
+    {
+      "id": "memory_weak_concept",
+      "category": "student_memory",
+      "description": "Store a weak concept."
+    },
+    {
+      "id": "memory_no_duplicates",
+      "category": "student_memory",
+      "description": "Avoid adding the same mastered concept more than once."
+    }
+  ]
+}

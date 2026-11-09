@@ -1,0 +1,94 @@
+[
+  {
+    "id": "big_o",
+    "subject": "Computer Science",
+    "topic": "Algorithms",
+    "concept": "Big-O Notation",
+    "keywords": [
+      "big-o",
+      "big o",
+      "time complexity",
+      "complexity",
+      "algorithm complexity"
+    ],
+    "definition": "Big-O notation describes an upper bound on how an algorithm's resource usage grows as the input size increases.",
+    "explanation": "Big-O is commonly used to describe the growth rate of an algorithm's running time or space usage. For example, O(n) grows linearly with the input size, while O(n^2) grows quadratically.",
+    "examples": [
+      "Scanning every element of an array once is typically O(n).",
+      "A nested loop that examines every pair of elements is typically O(n^2).",
+      "Binary search on a sorted array is O(log n)."
+    ],
+    "common_mistakes": [
+      "Thinking Big-O gives the exact execution time.",
+      "Ignoring how the algorithm scales when the input becomes larger.",
+      "Confusing O(n) with O(log n)."
+    ]
+  },
+  {
+    "id": "binary_search",
+    "subject": "Computer Science",
+    "topic": "Algorithms",
+    "concept": "Binary Search",
+    "keywords": [
+      "binary search",
+      "search algorithm",
+      "sorted array",
+      "logarithmic search"
+    ],
+    "definition": "Binary search finds an element in a sorted collection by repeatedly dividing the search interval in half.",
+    "explanation": "Binary search compares the target with the middle element. If the target is smaller, it searches the left half; if larger, it searches the right half.",
+    "examples": [
+      "Searching for 42 in a sorted list by repeatedly checking the middle element."
+    ],
+    "complexity": "O(log n)",
+    "common_mistakes": [
+      "Using binary search on unsorted data.",
+      "Forgetting to update the search boundaries.",
+      "Assuming binary search works efficiently without ordering."
+    ]
+  },
+  {
+    "id": "linear_search",
+    "subject": "Computer Science",
+    "topic": "Algorithms",
+    "concept": "Linear Search",
+    "keywords": [
+      "linear search",
+      "sequential search",
+      "search algorithm"
+    ],
+    "definition": "Linear search checks elements one by one until the target is found or the collection ends.",
+    "explanation": "Linear search does not require the data to be sorted. In the worst case, every element may need to be examined.",
+    "examples": [
+      "Searching for a name in an unsorted list by checking each name from the beginning."
+    ],
+    "complexity": "O(n)",
+    "common_mistakes": [
+      "Assuming the data must be sorted.",
+      "Confusing linear search with binary search."
+    ]
+  },
+  {
+    "id": "recursion",
+    "subject": "Computer Science",
+    "topic": "Programming",
+    "concept": "Recursion",
+    "keywords": [
+      "recursion",
+      "recursive function",
+      "base case",
+      "recursive case"
+    ],
+    "definition": "Recursion is a programming technique in which a function calls itself to solve smaller instances of the same problem.",
+    "explanation": "A recursive solution normally contains a base case that stops recursion and a recursive case that reduces the problem toward the base case.",
+    "examples": [
+      "Computing factorial using a recursive function.",
+      "Traversing a tree recursively."
+    ],
+    "common_mistakes": [
+      "Forgetting the base case.",
+      "Failing to make progress toward the base case.",
+      "Creating excessive recursive calls."
+    ]
+  }
+]
